@@ -1,0 +1,52 @@
+.highlightedProgram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  background-color: #f2f2f2;
+}
+
+.highlightedProgram h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.highlightedProgram .program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.highlightedProgram .program img {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+.highlightedProgram .program .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.highlightedProgram .program .info h3 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.highlightedProgram .program .info p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.highlightedProgram .program .info button {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.latestPrograms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  background-color: #fff;
+}
+
+.latestPrograms h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.latestPrograms .programs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 0 2rem;
+}
